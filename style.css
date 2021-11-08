@@ -1,0 +1,92 @@
+.figure {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background: #000;
+}
+
+.big-square {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 50%;
+    background: #0097FF;
+}
+
+.big-square:hover {
+    background: #009191;
+    z-index: 10;
+}
+
+.small-square {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10% ;
+    background: #FDC000;
+    z-index: 5;
+}
+
+.circle-top-left {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 100% ;
+    background: #FC0000;
+}
+
+.circle-top-left:hover {
+    background: #FF828D;
+    z-index: 5;
+}
+
+.circle-bottom-left {
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 100% ;
+    background: #FC0000;
+}
+
+.circle-bottom-left:hover {
+    background: #66DDAA;
+    z-index: 5;
+}
+
+.circle-top-right {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 100% ;
+    background: #FC0000;
+}
+
+.circle-top-right:hover {
+    background: #6647AA;
+    z-index: 5;
+}
+
+.circle-bottom-right {
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 100% ;
+    background: #FC0000;
+}
+
+.circle-bottom-right:hover {
+    background: #69D434;
+    z-index: 5;
+}
